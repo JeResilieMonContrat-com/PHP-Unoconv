@@ -1,5 +1,5 @@
 {
-    "name": "php-unoconv/php-unoconv",
+    "name": "jrmc/php-unoconv",
     "type": "library",
     "description": "Unoconv PHP, an Object Oriented library for easy file conversion with LibreOffice's unoconv",
     "keywords": ["unoconv"],
@@ -14,6 +14,11 @@
             "name": "Phraseanet Team",
             "email": "info@alchemy.fr",
             "homepage": "http://www.phraseanet.com/"
+        },
+        {
+            "name": "Guilhem Gorget",
+            "email": "guilhem.gorget@jeresiliemoncontrat.com",
+            "homepage": "https://jeresiliemoncontrat.com"
         }
     ],
     "require": {
@@ -21,8 +26,7 @@
         "alchemy/binary-driver" : "~5.0"
     },
     "require-dev": {
-        "phpunit/phpunit"       : "~6.0",
-        "silex/silex"           : "~2.0"
+        "phpunit/phpunit"       : "~6.0|~7.0|~8.0"
     },
     "autoload": {
         "psr-0": {
