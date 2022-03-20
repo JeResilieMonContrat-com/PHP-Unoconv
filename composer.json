@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "php"                   : "~7.0",
+        "php"                   : "^7.0|^8",
         "alchemy/binary-driver" : "~5.0"
     },
     "require-dev": {
